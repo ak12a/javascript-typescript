@@ -42,4 +42,4 @@ fi
 npm install && \
 bower install && \
 tsd install jquery && \
-echo "OK!"
+echo "OK!!!!!"
