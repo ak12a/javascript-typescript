@@ -119,7 +119,7 @@ jobs:
     steps:
 
       - name: Run Code Scanning
-        uses: github/codeql-action/init@v3
+        uses: department-of-veterans-affairs/codeql-tools/codeql-analysis@main
         with:
-          languages: ${{ matrix.language }}
+          language: ${{ matrix.language }}
 
